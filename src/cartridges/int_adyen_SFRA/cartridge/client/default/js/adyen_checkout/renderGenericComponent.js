@@ -206,6 +206,8 @@ module.exports.renderGenericComponent = async function renderGenericComponent(
   const session = await createSession();
   const giftCardsData = await fetchGiftCards();
 
+  console.log("HERE, RENDER COMPONENT");
+
   store.checkoutConfiguration.session = {
     id: session.id,
     sessionData: session.sessionData,

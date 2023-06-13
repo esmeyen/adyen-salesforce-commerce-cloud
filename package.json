@@ -25,7 +25,6 @@
     "check-build:sfra": "chmod 755 ./check-build.sh && sh ./check-build.sh SFRA",
     "check-build:sg": "chmod 755 ./check-build.sh && sh ./check-build.sh SG",
     "check-branch-name": "chmod 755 ./branching.sh && sh ./branching.sh",
-    "prepare": "husky install",
     "preinstall": "npx npm-force-resolutions"
   },
   "engines": {
