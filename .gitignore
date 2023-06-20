@@ -8,3 +8,4 @@ dw.json
 screenshots/
 playwright-report/
 Vagrantfile
+package-lock.json
